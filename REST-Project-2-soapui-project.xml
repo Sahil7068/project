@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="6326860f-1341-4467-b18d-abe051c21169" activeEnvironment="Default" name="REST Project 2" soapui-version="5.7.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="f71baa56-5cb4-46cf-b480-77507ee8e084" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://216.10.245.166" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://216.10.245.166</con:endpoint></con:endpoints><con:resource name="Json" path="/maps/api/place/add/json" id="160ddde7-7eae-48c1-b7ae-4cc690f31487"><con:settings/><con:parameters><con:parameter><con:name>key</con:name><con:value>qaclick123</con:value><con:style>QUERY</con:style><con:default>qaclick123</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Json 1" id="bfe43a5a-0e98-4471-9705-1ad80e633771" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="45911175-a1a6-4d62-a01b-681d0b51e2a7" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://216.10.245.166</con:endpoint><con:request>{
+
+    "location":{
+
+        "lat" : -38.383494,
+
+        "lng" : 33.427362
+
+    },
+
+    "accuracy":50,
+
+    "name":"Frontline house",
+
+    "phone_number":"(+91) 983 893 3937",
+
+    "address" : "29, side layout, cohen 09",
+
+    "types": ["shoe park","shop"],
+
+    "website" : "http://google.com",
+
+    "language" : "French-IN"
+
+}
+</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="key" value="qaclick123" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>key</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
